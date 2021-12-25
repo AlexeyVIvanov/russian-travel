@@ -6,3 +6,26 @@
   margin-left: 100px;
   /* для выравнивания объединить с блоком LEAD? */
 }
+
+@media screen and (max-width: 1120px) {
+  .intro {
+    margin: 0 auto 0 48px;
+  }
+}
+
+@media screen and (max-width: 978px) {
+  .intro {
+    width: calc(100% - 48px);
+    padding-bottom: 88px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    width: calc(100% - 32px);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 64px;
+  }
+}

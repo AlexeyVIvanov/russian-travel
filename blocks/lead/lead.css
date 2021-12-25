@@ -8,3 +8,22 @@
   box-sizing: border-box;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1120px) {
+  .lead {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .lead {
+    width: 100%;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead {
+    padding-bottom: 64px;
+  }
+}

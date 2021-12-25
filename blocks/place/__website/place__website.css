@@ -4,4 +4,13 @@
   display: flex;
   flex-direction: column;
   align-self: end;
+
+
+}
+
+@media screen and (max-width: 767px) {
+  .place__website {
+    width: calc(100% - 32px);
+    margin: 0 auto 32px;
+  }
 }

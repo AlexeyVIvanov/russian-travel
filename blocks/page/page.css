@@ -8,4 +8,16 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1120px) {
+  .page {
+    padding: 28px 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+    padding: 16px 0 24px;
+  }
+}
+
 

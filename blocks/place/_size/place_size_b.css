@@ -1,0 +1,10 @@
+.placce_size_b {
+  grid-template-rows: 152px 1fr;
+}
+
+@media screen and (max-width: 978px) {
+  .placce_size_b {
+    grid-template-rows: 92px 1fr;
+  }
+}
+

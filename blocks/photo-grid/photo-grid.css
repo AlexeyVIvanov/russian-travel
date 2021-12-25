@@ -4,6 +4,25 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
   gap: 16px;
-  padding-bottom: 92px;
+  padding: 0 0 92px;
   box-sizing: border-box;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1120px) {
+  .photo-grid {
+    padding: 0 48px 92px;
+  }
+}
+
+@media screen and (max-width: 978px) {
+  .photo-grid {
+    padding: 0 24px 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    padding: 0 16px 64px;
+  }
 }

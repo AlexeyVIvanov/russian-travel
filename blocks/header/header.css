@@ -1,6 +1,24 @@
 .header {
-  width: 100%;
+  max-width: 1184px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 1120px) {
+  .header {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 978px) {
+  .header {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    width: calc(100% - 32px);
+  }
 }
