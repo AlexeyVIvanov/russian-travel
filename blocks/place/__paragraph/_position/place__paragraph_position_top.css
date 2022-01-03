@@ -1,14 +1,14 @@
-.place__paragraph_top {
+.place__paragraph_position_top {
   margin: 0 0 26px;
 
 }
 
-.place__paragraph_top:last-child {
+.place__paragraph_position_top:last-child {
   margin: 0 auto;
 }
 
 @media screen and (max-width: 767px) {
-  .place__paragraph_top {
+  .place__paragraph_position_top {
     margin: 0 auto 26px;
     width: calc(100% - 32px);
   }

@@ -1,9 +1,9 @@
-.place_size_b {
+.place_size_wide {
   grid-template-rows: 152px 1fr;
 }
 
 @media screen and (max-width: 978px) {
-  .place_size_b {
+  .place_size_wide {
     grid-template-rows: 92px 1fr;
   }
 }

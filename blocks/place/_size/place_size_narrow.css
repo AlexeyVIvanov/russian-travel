@@ -1,9 +1,9 @@
-.place_size_s {
+.place_size_narrow {
   grid-template-rows: 76px 1fr;
 }
 
 @media screen and (max-width: 978px) {
-  .place_size_s {
+  .place_size_narrow {
     grid-template-rows: 46px 1fr;
   }
 }
